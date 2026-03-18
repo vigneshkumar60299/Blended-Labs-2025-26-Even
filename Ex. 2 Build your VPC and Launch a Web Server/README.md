@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: VIGNESH KUMAR S
+* **Register Number**:212223060299
+* **Date of Submission**: 27/02/26
 
 ---
 
@@ -87,31 +87,37 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Create a VPC using Amazon VPC and define public/private subnets.
+
+2. Attach an Internet Gateway and configure route tables for internet access.
+
+3. Launch a web server on Amazon EC2 in the public subnet with a public IP.
+
+4. Configure security groups to allow HTTP/HTTPS (and restricted SSH).
+
+5. Add Elastic Load Balancing and Auto Scaling for high availability
 
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
+<img width="1598" height="696" alt="image" src="https://github.com/user-attachments/assets/d610a9f8-a431-4628-8d52-3d3d82081710" />
 
-(Insert Screenshot Here)
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1595" height="711" alt="image" src="https://github.com/user-attachments/assets/b7074388-e803-41ba-bc1e-83a032db8204" />
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1600" height="809" alt="image" src="https://github.com/user-attachments/assets/c5885f68-9934-41af-ae4e-26269719912d" />
+
 
 ---
 
