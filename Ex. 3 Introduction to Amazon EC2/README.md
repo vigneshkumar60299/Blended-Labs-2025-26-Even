@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:VIGNESH KUMAR S
+* **Register Number**: 212223060299
+* **Date of Submission**: 12/03/26
 
 ---
 
@@ -98,11 +98,43 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Login to AWS Management Console
+
+2.Open Amazon EC2 dashboard
+
+3.Click on Launch Instance
+
+4.Choose an AMI (Amazon Machine Image) such as Amazon Linux or Ubuntu
+
+5.Select an instance type such as t2.micro
+
+6.Configure instance details (network, number of instances, etc.)
+
+7.Add storage and tags if required
+
+8.Configure security group to allow SSH (port 22) or HTTP (port 80)
+
+9.Create and download key pair (.pem file)
+
+10.Click Launch Instance
+
+11.Wait until instance state becomes running
+
+12.Select the instance and click Connect
+
+13.Connect using SSH command
+
+14.Access the instance terminal
+
+15.Go to monitoring tab to check CPU usage and status checks
+
+16.Use CloudWatch to observe performance metrics
+
+17.Stop the instance when not in use
+
+18.Start the instance again when needed
+
+19.Terminate the instance when it is no longer required
 
 ---
 
@@ -110,19 +142,21 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1261" height="763" alt="image" src="https://github.com/user-attachments/assets/c1ccd531-c1e8-423d-a923-b9d519b1aed0" />
+
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1269" height="834" alt="image" src="https://github.com/user-attachments/assets/6339eb6d-b779-4a27-ada8-9bd2c71998ad" />
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1262" height="828" alt="image" src="https://github.com/user-attachments/assets/f57482aa-b707-4397-8c80-8d4231963ba0" />
 
 ---
 
