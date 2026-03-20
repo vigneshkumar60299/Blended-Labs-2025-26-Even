@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: VIGNESH KUMAR S
+* **Register Number**:212223060299
+* **Date of Submission**: 20/03/2026
 
 ---
 
@@ -82,13 +82,48 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. 1. Open AWS Management Console and go to EC2 service.
+
+2. Click on “Launch Instance” and choose an operating system like Amazon Linux or Ubuntu.
+
+3. Select instance type (t2.micro) and keep other settings as default.
+
+4. Configure storage if required.
+
+5. In security group, allow SSH (port 22) and database port (like 3306 for MySQL).
+
+6. Launch the instance and download the key pair.
+
+7. Connect to the EC2 instance using SSH from your system.
+
+8. Update the system packages to the latest version.
+
+9. Install a database management system such as MySQL.
+
+10. Start the database service and enable it to run automatically.
+
+11. Secure the database by setting root password and basic configuration.
+
+12. Log in to the database server.
+
+13. Create a new database.
+
+14. Create a user and assign permissions to access the database.
+
+15. Create a sample table in the database.
+
+16. Insert some records into the table to test.
+
+17. Configure database settings to allow remote access if needed.
+
+18. Ensure the required port is open in the security group.
+
+19. Test the database connection from another system or client.
+
+20. Verify that data can be accessed successfully.
+
+
 
 ---
 
@@ -96,19 +131,22 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1333" height="907" alt="Screenshot 2026-03-20 102324" src="https://github.com/user-attachments/assets/9f72a32c-bbdc-45d5-8e8e-ec9665ee20c4" />
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1919" height="1046" alt="image" src="https://github.com/user-attachments/assets/46c15788-082a-477e-bbb5-5262249b1cdd" />
+
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1230" height="945" alt="Screenshot 2026-03-20 105041" src="https://github.com/user-attachments/assets/40e7b040-fad5-4778-bbf5-0360ede0a15d" />
+
 
 ---
 
