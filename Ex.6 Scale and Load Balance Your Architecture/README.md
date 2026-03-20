@@ -3,7 +3,7 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+Author : VIGNESH KUMAR S   Reg no : 212223060299  yours   Date :20/03/26
 
 ---
 
@@ -68,9 +68,66 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 Describe step-by-step how you performed this experiment in your own words.
 
+1.First, I logged into the Amazon Web Services console.
+
+2.Then I went to the EC2 service and launched a new instance using Amazon Linux.
+
+3.I selected a small instance type (t2.micro) and allowed HTTP access in the security group.
+
+4.After launching, I connected to the instance and installed a web server (Apache).
+
+5.I created a simple web page so that I can identify the instance during testing.
+
+6.Then I created an AMI from this instance so it can be reused later.
+
+7.Next, I created a Launch Template using this AMI with required configurations.
+
+8.After that, I created a Target Group and set HTTP protocol with health checks.
+
+9.Then I went to Elastic Load Balancing and created an Application Load Balancer.
+
+10.I selected multiple Availability Zones to make the system highly available.
+
+11.I attached the Target Group to the Load Balancer.
+
+12.Next, I created an Auto Scaling Group using the Launch Template.
+
+13.I selected multiple Availability Zones again and attached the Load Balancer.
+
+14.I set the minimum, desired, and maximum number of instances.
+
+15.Then I configured scaling policies based on CPU usage (for example, scale when CPU is high).
+
+16.After creating everything, I tested the Load Balancer by opening its DNS in a browser and refreshing multiple times.
+
+17.I observed that different instances handled the requests.
+
+18.Then I generated more traffic to check Auto Scaling, and new instances were created automatically.
+
+19.I also stopped one instance manually to test fault tolerance, and a new instance was launched automatically.
+
+20.Finally, I monitored everything using Amazon CloudWatch.
+
 ---
 
 ## Output Screenshots 
+
+
+<img width="1334" height="911" alt="Screenshot 2026-03-20 084148" src="https://github.com/user-attachments/assets/5f946bec-1105-42bf-9163-019cb1471d92" />
+
+<img width="1342" height="863" alt="Screenshot 2026-03-20 085254" src="https://github.com/user-attachments/assets/732f5bbc-9d5e-4770-9839-d7f4796b469a" />
+
+<img width="1336" height="941" alt="Screenshot 2026-03-20 090554" src="https://github.com/user-attachments/assets/00e4a58b-da0c-4f7f-997d-80e2376fb224" />
+
+<img width="1335" height="889" alt="Screenshot 2026-03-20 092950" src="https://github.com/user-attachments/assets/64848780-501c-423e-a064-f6ac0cb293a9" />
+
+
+
+
+
+
+
+
 
 
 ---
